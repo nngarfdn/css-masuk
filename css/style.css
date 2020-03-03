@@ -1,0 +1,43 @@
+/*
+Author : Nanang Arifudin
+Type : CSS
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans";
+}
+
+nav {
+	background-color: #FAFAFA;
+	/*padding: atas kanan bawah kiri*/
+	/*kalo bawah atas bawah dan kiri kanan*/
+	padding: 20px 10px ;
+	height: 60px;
+	position: fixed;
+	width: 100% ;
+	margin: 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: black ;
+}
+
+#navbar-logo{
+	padding-left: 10px;
+}
